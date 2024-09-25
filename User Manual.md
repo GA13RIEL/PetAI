@@ -44,6 +44,6 @@ Playing with the pet can be super fun as the AI seems to allow you to play any g
 <a id="pet-setup"></a>
 ## Seeing your pet through manual input
 When running the program, one of the initial prescripted questions will ask the user to enter a "pet type." When this line is filled out with non-illegal terms the pet image generator is called and will generate an image. The image is hosted on a temporary url which will be displayed in the terminal.<br>
-Taking this link, move to the mainpage.html file and replace the URL `http://127.0.0.1:5000/image_gen`.
+Taking this link, move to the mainpage.html file and replace the URL `http://127.0.0.1:5000/image_gen`. (NOW IS "AI LOGO.jpg")
 ![image](https://github.com/Dillon-G/CSC-490-FinalProject/assets/111513711/21c4ac0c-a518-41b7-ac93-b447c3f1f7d5)
 <br> When the link is in place refresh the page, this should allow the user to see their pet while talking with the AI Chatbot. The visible message history with the chatbot will be gone, however it is saved internally so the bot will act the same regardless of page refreshes.
