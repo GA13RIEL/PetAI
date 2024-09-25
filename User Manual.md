@@ -11,7 +11,7 @@ Within `AI_Chatbot.py` as well as `Image_Generator.py` there exists a line that 
 <br>And then here in `Image_Generator.py`<br>
 ![image](https://github.com/Dillon-G/CSC-490-FinalProject/assets/111513711/b1401560-c08a-4010-af7f-1ce10dc88e75)
 
-Next it should be noted that in the final version we were able to get out we managed to allow generated images to display after a web page refresh. The initial plan was to run a subprocess to automatically display the generated image in place of the logo without any need for a refresh or live-swapping the url of the image. However, the method used wasn't properly tested and when called it causes the AI Chatbot to never regain control, thus preventing the experience from moving forward.
+Next, it should be noted that we managed to allow generated images to display after a web page refresh, but it couldn't be implemented in the final version. The initial plan was to run a subprocess to automatically display the generated image in place of the logo without any need for real-time swapping of the image url. However, the method used wasn't properly tested and when called it causes the AI Chatbot to never regain control, thus preventing the experience from moving forward.
 <br>The feature is currently disabled. The feature can be tested by having the subprocess on line 210 enabled like follows:<br>![image](https://github.com/Dillon-G/CSC-490-FinalProject/assets/111513711/ca4cb318-bb51-4091-b16c-d8408036fe5e)
 <br>It should be noted that the current build has it commented out, if the user wishes to have their pet displayed while playing with the chatbot then please move to [this section of the manual](#pet-setup).
 
