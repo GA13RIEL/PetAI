@@ -3,7 +3,7 @@ This is the user manual for Team L[AI]on's PetAI, the program currently features
 When running the program please take note that a specific version of OpenAI must be pip installed, this can be done with the following pip command: `pip install openai==0.28`<br>
 <br>
 ## Setup
-(IGNORE THIS SECTION, THERE IS A NEW TEMPORARY KEY IN PLACE)
+(IGNORE THIS SECTION, THERE IS A NEW TEMPORARY KEY IN PLACE) <br>
 Within `AI_Chatbot.py` as well as `Image_Generator.py` there exists a line that must be filled out with the users OpenAI API key. 
 <br><ins>This key is required to allow the chatbot and image generation to run.</ins>
 <br><ins>Currently there is a temporary key in place which will expire around December 10th, 2023.</ins>
